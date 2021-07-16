@@ -1,0 +1,44 @@
+body {
+margin: 0;
+padding: 0;
+background: url("https://images.pexels.com/photos/7693955/pexels-photo-7693955.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Helvetica, sans-serif;
+}
+form {
+overflow: hidden;
+border-radius: 5px;
+}
+table {
+background: rgba(0,0,0,0.7);
+color: white;
+border: 1px solid rgba(0,0,0,0.5);
+border-radius: 5px;
+overflow: hidden;
+position: relative;
+}
+
+td {
+border: none;
+}
+
+.button {
+padding: 8px;
+background: #4d7978;
+border: none;
+color: white;
+transition: 0.3s ease;
+cursor: pointer;
+position: absolute;
+width: 100%;
+bottom: 0;
+left: 0;
+}
+
+.button:hover {
+background: #2b5756;
+}
